@@ -1,0 +1,47 @@
+.principal{
+  width: 1280px;
+  margin: auto;
+  text-align: center;
+}
+
+.conteudo{
+  padding: 12px;
+  margin-top: 12px;
+  border: 1px solid #CCC;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.titulo{
+  border-bottom:  1px solid black;
+  padding: 8px;
+  margin-bottom: 12px;
+  background-color: #EEE;
+  border-radius: 8px 8px 0 0;
+}
+
+.rodape{
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  padding: 8px;
+  margin-top: 12px;
+  width: 50%;
+  display: inline-block;
+}
+
+.numero-par{
+  background-color: rgba(0, 0, 255, 0.349);
+}
+
+.numero-impar{
+  background-color: rgba(255, 0 , 0, 0.534);
+}
+
+.valor{
+  margin: 24px;
+  padding: 50px;
+  border: 1px solid #EEE;
+  border-radius: 8px;
+  width: 20%;
+  display: inline-block;
+}

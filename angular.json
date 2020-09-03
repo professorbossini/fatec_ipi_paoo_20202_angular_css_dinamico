@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fatec-ipi-paoo-css-dinamico"
+    }
+  },
+  "defaultProject": "fatec-ipi-paoo-css-dinamico",
+  "cli": {
+    "analytics": "d6ad01c9-fea9-44d7-b3d5-4d3d48f0f048"
+  }
 }

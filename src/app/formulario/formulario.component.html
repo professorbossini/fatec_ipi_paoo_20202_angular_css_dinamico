@@ -1,0 +1,21 @@
+<div class="principal">
+  <article class="conteudo">
+    <header class="titulo">
+      Aplicando CSS com Angular
+    </header>
+    <div class="corpo">
+      Há diferentes formas para se aplicar estilos com mecanismos do Angular.
+    </div>
+  </article>
+  <div class="valor" [ngClass]="obterClassesValor()">
+    {{valor}}
+  </div>
+  <div [ngStyle]="{'margin-top': '4px'}">
+    <button (click)="gerarValor()" [ngStyle]="obterEstilosParaOBotao()">
+      OK
+    </button>
+  </div>
+  <footer [ngClass]="obterClassesRodape()">
+    Angular. 2020. Google Inc.
+  </footer>
+</div>
